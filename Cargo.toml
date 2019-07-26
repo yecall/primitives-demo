@@ -1,0 +1,13 @@
+[package]
+name = "primitives-demo"
+version = "0.1.0"
+authors = ["guoxbin <guobin@bit-rock.com>"]
+edition = "2018"
+
+[dependencies]
+substrate-primitives = { git = "https://github.com/yeeco/substrate.git", branch = "yee-v1.0" }
+substrate-keyring = { git = "https://github.com/yeeco/substrate.git", branch = "yee-v1.0" }
+sr-io = { git = "https://github.com/yeeco/substrate.git", branch = "yee-v1.0" }
+parity-codec = { version = "3.2", default-features = false, features = ["derive"] }
+primitive-types = "0.2.4"
+hex = "0.3.1"

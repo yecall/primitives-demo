@@ -1,2 +1,2 @@
-# primitives-demo
-Primitives demo
+# Primitives demo
+Shows basic operations of primitives.
