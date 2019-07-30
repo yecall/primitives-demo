@@ -82,6 +82,21 @@ mod tests {
 
         println!("nonce_key={}", hex::encode(nonce_key));
     }
+
+    #[test]
+    fn key_for_indices_enumset() {
+
+        let enum_set_key = blake2_256(&0u32.to_keyed_vec(b"Indices EnumSet"));
+
+        assert_eq!("c98362e2ca21b342cc749022ed9b560e4d29ec9862a960c2538c314f1d279635", hex::encode(enum_set_key));
+
+        println!("enum_set_key={}", hex::encode(enum_set_key));
+    }
+
+    #[test]
+    fn test_extrinsic(){
+
+    }
 }
 
 
